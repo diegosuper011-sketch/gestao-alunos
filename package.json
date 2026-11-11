@@ -1,0 +1,16 @@
+{
+  "name": "gestao-academica",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aplicação web para cadastro e acompanhamento de alunos, notas e frequência.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.22.3",
+    "pg": "^8.13.1"
+  }
+}
